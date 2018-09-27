@@ -126,7 +126,7 @@ open class BaseNotificationBanner: UIView {
         return [NotificationBanner.BannerObjectKey: self]
     }
     
-    public override var backgroundColor: UIColor? {
+    open override var backgroundColor: UIColor? {
         get {
             return contentView.backgroundColor
         } set {
