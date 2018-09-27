@@ -32,7 +32,7 @@ public protocol NotificationBannerDelegate: class {
     func notificationBannerDidDisappear(_ banner: BaseNotificationBanner)
 }
 
-public class BaseNotificationBanner: UIView {
+open class BaseNotificationBanner: UIView {
     
     /// The delegate of the notification banner
     public weak var delegate: NotificationBannerDelegate?

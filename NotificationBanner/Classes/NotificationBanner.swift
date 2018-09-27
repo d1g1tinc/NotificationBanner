@@ -25,7 +25,7 @@ import SnapKit
     import MarqueeLabel
 #endif
 
-public class NotificationBanner: BaseNotificationBanner {
+open class NotificationBanner: BaseNotificationBanner {
     
     /// Notification that will be posted when a notification banner will appear
     public static let BannerWillAppear: Notification.Name = Notification.Name(rawValue: "NotificationBannerWillAppear")

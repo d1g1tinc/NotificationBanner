@@ -22,7 +22,7 @@ public protocol BannerColorsProtocol {
     func color(for style: BannerStyle) -> UIColor
 }
 
-public class BannerColors: BannerColorsProtocol {
+open class BannerColors: BannerColorsProtocol {
 
     public func color(for style: BannerStyle) -> UIColor {
         switch style {
